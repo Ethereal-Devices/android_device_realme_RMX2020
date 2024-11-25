@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX2020.mk
+    $(LOCAL_DIR)/ethereal_RMX2020.mk
+    
+COMMON_LUNCH_CHOICES := \
+    ethereal_RMX2020-user \
+    ethereal_RMX2020-userdebug \
+    ethereal_RMX2020-eng
