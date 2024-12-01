@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX2020/device.mk)
 
-# Inherit some common crDroid stuff.
+# Inherit some common Ethereal stuff.
 $(call inherit-product, vendor/ethereal/config/common_full_phone.mk)
 
-ETHEREAL_BUILD_TYPE := UNOFFICIAL
+ETHEREAL_BUILD_TYPE := OFFICIAL
 ETHEREAL_MAINTAINER := IamCOD3X
 
 # Device identifier. This must come after all inclusions.
