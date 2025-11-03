@@ -15,6 +15,10 @@ $(call inherit-product, device/realme/RMX2020/device.mk)
 # Inherit some common Ethereal stuff.
 $(call inherit-product, vendor/ethereal/config/common_full_phone.mk)
 
+# Inherit Viper4Android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# Ethereal Flags
 ETHEREAL_BUILD_TYPE := OFFICIAL
 ETHEREAL_MAINTAINER := IamCOD3X
 

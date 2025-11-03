@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/realme/RMX2020
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
